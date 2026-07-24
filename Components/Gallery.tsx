@@ -36,7 +36,7 @@ const items = [
 const Project = () => {
 
   return (
-    <section className=' w-full h-500 flex flex-col'>
+    <section className=' w-full h-500 flex flex-col bg-white text-black '>
         <div className='flex flex-col justify-center w-full h-full '>
             <div className='w-full h-40 flex justify-center py-30 px-10 items-center font-extrabold text-7xl '>
                 <h4 className='text-4xl absolute text-[#86A3AC] left-10 font-bold '>Projects</h4>
@@ -52,11 +52,12 @@ const Project = () => {
                     </div>
                 ))}
             </div>
-            
-            <div className='w-full h-50 flex justify-center items-center'><div className='h-20 w-34 border flex justify-center items-center'>Call Us Today</div>
+        </div>   
+            <div className='btn-all relative w-full h-40 justify-center flex items-center'>
+                <a className='relative py-4 px-8 text-xl text-center underline cursor-pointer'>Call Us Today</a>
             </div>
 
-        </div>
+        
         
     </section>
   )

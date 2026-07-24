@@ -11,8 +11,8 @@ const Services = () => {
             </div>
             <div className="w-150  text-xl z-10">
                 <h3>Custom pools designed around your space, your lifestyle, and your vision—built with precision and long-term durability in mind.</h3>
-                <div className='btn-all relative mt-20'>
-                    <a className='relative py-4 px-8 text-xl text-center underline'>Book A service</a>
+                <div className='btn-all btn-light relative mt-20'>
+                    <a className='relative py-4 px-8 text-xl text-center underline cursor-pointer'>Book A service</a>
                 </div>
             </div>
         </div>

@@ -15,7 +15,8 @@ const Contact = () => {
             </div>
             <div className='w-200 h-full flex flex-col justify-center items-center text-[#86A3AC]'>
                 <h2 className='text-3xl'>Experience a level of craftsmanship where the people you meet are the ones who build your project. No handoffs. No layers. Just direct involvement, every step of the way</h2>
-                <div className='button'>Call Us Today
+                <div className='btn-all relative mt-10'>
+                    <a className='relative py-4 px-8 text-xl text-center underline cursor-pointer text-white'>Call Us Today</a>
                 </div>
             </div>
         </div>
