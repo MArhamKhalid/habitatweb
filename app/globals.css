@@ -13,7 +13,7 @@
 }
 @font-face {
   font-family: "nohemi";
-  src: url(/public/fonts/Nohemi-Regular.otf);
+  src: url(/fonts/Nohemi-Regular.otf);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,226 +30,31 @@ body {
 h1,h2,h3,h4,h5,h6,p,span,a{
   font-family: Nohemi;
 }
-/* .home-video{
+.btn-all a::before{
+  content: ' ';
   position: absolute;
-  width: 100%;
-  overflow: hidden;
-  height: 90%;
-  
-  z-index: 0;
-} */
-/* header{
-  position: relative;
-  width: 100%;
-  height: 5.6rem;
-  background: #171717;
-  border-bottom: 0.5px solid white;
-} */
-/* nav{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-  padding: 0 2rem 0;
-  gap: 15rem; */
-  /* border-bottom: 0.5px solid white; 
-}*/
-/* nav .menu-list{
-  width: 200px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 0.5px solid white;
-  text-decoration: underline;
-  font-size: 1.4rem;
-
-} */
-/* nav .logo{
-  width: 400px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  border-right:0.5px solid white;
-  border-left:0.5px solid white;
-} */
-/* nav .logo h4{
-  font-size: 1rem;
-  font-weight:  bold;
+  left: 0%;
+  top: 0;
+  width: 15rem;
+  height: 4rem;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
 }
-nav .nav-details{
-  width: 200px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-left: 0.5px solid white;
-  text-decoration: underline;
-  font-size: 1.4rem;
-} */
-/* section{
-  width: 100%;
-  height: 100vh;
-}
-.main-home{
-  position: relative;
-  width: 100%;
-  height: 90vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-  padding: 8rem 5% 2rem;
-  color: white;
-}
-.home-leftside h2{
-    font-size: 4rem;
-    font-weight: 700;
-
-}
-.home-scroll img{
-  color: black;
-  font-size: 1.6rem;
-}
-.home-scroll{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top: 1px solid white;
-    border-radius: 50%;
-    width: 250px;
-    height: 210px;
-    font-size: 1.6rem;
-} */
-/* .contact-details{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: start;
-  padding: 8rem 5% 2rem;
-  background: #112931;;
-  color: #86A3AC;
-
-} */
-/* .caontact-details div h2{
-  color: #86A3AC;
-
-} */
-/* .contact-details div{
-  width: 400px;
-  height: 80%;
-} */
-/* .con-leftside{
-  width: 200px;
-  height: 50%;
-  font-size: 1.4rem;
-}
-.contact-middle{
-  width: 400px;
-  height: 60%;
-}
-.contact-middle h2{
-  width: 100%;
-  height: 20%;
+.btn-all a::after{
+  content: ' ';
   position: absolute;
-  font-size: 3.8rem;
-  margin-left: 6rem;
-  color: white;
-}
-.contact-middle img{
-  position: relative;
-  border-radius: 2rem;
-  width: 90%;
-  height: 100%;
-  top: 12rem;
-  opacity: 60%;
-}
-.con-rightside {
-  width: 400px;
-  height: 50%;
-  color: #8EABB4;
-  font-family: Nohemi;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px; 184.615%
-  text-transform: capitalize;
-  margin-top: 10rem;
-} */
-/* .sub-con-details{
-  float: left;
-  width: 50px;
-  height: 40px;
-  border-right: 1px solid black;
-}
-
-.con-rightside .button{
-  width: 190px;
-  height: 70px;
+  left: 3%;
+  top: 0;
+  width: 16rem;
+  height: 5rem;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  padding-left: 5px;
-  color: white;
-  margin-top: 20px;
 }
-.con-rightside button a{
-      display: flex;
-    border: 1px solid #fff;
-    border-left: 1px solid;
-    border-bottom: 1px solid;
-    width: 100%;
-    padding-left: 5px;
-    height: 70%;
-     padding: 5px;
-} */
-/* .project{
-  width: 100%;
-  height: 180vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-  padding: 8rem 5% 2rem;
-
+.btn-s a::before{
+  border-color: #171717;
 }
-.project-details{
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.project-details h4{
-  position: ;
-  width: 35%;
-  height: 100%;
-  color: #86A3AC;
-  font-size: 1.4rem;
-  font-weight: 400;
-} */
-.button::before{
-  content: ('');
-  position: relative;
-  width: 2rem;
-  height: 1rem;
-  border: 2px solid white;
-  background: white;
-}
-.button::after{
-
-  position: relative;
-  top: 20px;
-  width: 3rem;
-  height: 1.5rem;
-  background: white;
+.btn-s a::after{
+  border-color: #171717;
 }
 /* .project-details h2{
   width: 65%;
