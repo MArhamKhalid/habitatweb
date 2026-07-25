@@ -36,7 +36,7 @@ const items = [
 const Project = () => {
 
   return (
-    <section className=' w-full h-500 flex flex-col bg-white text-black rounded-3xl  py-15 px-21 '>
+    <section className=' w-full h-500 flex flex-col bg-white text-black rounded-3xl pt-30 px-21 '>
 
         <div className='flex flex-col justify-center w-full h-full '>
 
@@ -47,13 +47,13 @@ const Project = () => {
 
             <div className=' grid grid-cols-3 justify-center gap-4 mt-20'>
                 {items.map((item) => (
-                    <div className='h-180 w-142 rounded-4xl bg-white border border-gray px-2 flex flex-col justify-center items-center text-center gap-y-8 group hover:bg-[#112931] hover:text-white shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] ' key={item.name}>
-                        <div className='w-12 h-12 rounded-4xl bg-black flex justify-center items-center'>
-                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className=' text-white p-2 ' ><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+                    <div className=' group h-200 w-140 rounded-4xl border border-gray-200 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] px-15 flex flex-col justify-center items-center text-center gap-y-8 hover:bg-[#112931] hover:text-white shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] ' key={item.name}>
+                        <div className='w-19 h-19 rounded-[50%] bg-[#112931] group-hover:bg-white flex justify-center items-center  ml-110'>
+                            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className=' bg-[#112931] text-white group-hover:bg-white rounded-4xl group-hover:text-[#112931] p-2 ' ><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
                         </div>
-                        <h2 className='h-20 w-full text-center text-4xl'>{item.name}</h2>
-                        <div className='w-100 h-80 -rotate-3 overflow-hidden rounded-2xl'>
-                        <img className='rounded-2xl w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out'  src={item.imagePath} alt={item.name} />
+                        <h2 className='h-20 w-full text-center text-6xl'>{item.name}</h2>
+                        <div className='w-130 h-95 -rotate-4 overflow-hidden rounded-3xl'>
+                            <img className='rounded-2xl w-full h-full object-cover'  src={item.imagePath} alt={item.name} />
 
                         </div>
                         <p className='h-24 w-full flex justify-center items-center text-xl'>{item.description}</p>
