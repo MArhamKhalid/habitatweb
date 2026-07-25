@@ -2,10 +2,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className='relative w-full h-dvh flex justify-center items-end text-white '>
+    <section className='relative w-full h-screen flex flex-col justify-center items-center text-white '>
         
-        {/* <div className="relative h-screen w-full overflow-hidden flex items-center justify-center"> */}
-            <video className="w-full h-full absolute inset-0 object-cover "  
+        {/* <div className="relative h-full w-full flex items-center justify-center"> */}
+            <video className=" absolute top-0px left-0px inset-0 object-cover h-[100%] w-[100%]  overflow-hidden  "  
                 autoPlay
                 muted
                 loop
@@ -13,7 +13,7 @@ const Home = () => {
                 <source src="/HOMEVideo.webm" type="video/webm" />
             </video> 
         {/* </div> */}
-        <div className='w-full flex justify-evenly items-center gap-y-5 z-10'>
+        <div className='relative w-full flex justify-evenly items-center z-10'>
             <div className='w-120 h-40 ' >
                 <h2 className='text-7xl font-bold '>Luxury Pools <br/> & Landscape</h2>
             </div>

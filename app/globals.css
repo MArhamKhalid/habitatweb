@@ -30,6 +30,10 @@ body {
 h1,h2,h3,h4,h5,h6,p,span,a{
   font-family: Nohemi;
 }
+/* section {
+  min-height: 100vh;
+  padding: 10rem 10% 10rem;
+} */
 .btn-all a::before{
   content: ' ';
   position: absolute;
@@ -43,7 +47,7 @@ h1,h2,h3,h4,h5,h6,p,span,a{
 .btn-all a::after{
   content: ' ';
   position: absolute;
-  left: 3%;
+  left: 10%;
   top: 0;
   width: 16rem;
   height: 5rem;
