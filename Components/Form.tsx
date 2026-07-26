@@ -1,7 +1,7 @@
 const Form = () => {
   return (
-    <section className="w-full h-dvh justify-center py-40 mt-46">
-        <div className="flex justify-between items-center w-full  py-30 px-24 text-[#112931] gap-1">
+    <section className="w-full justify-center  bg-white">
+        <div className="flex justify-between items-center w-full  py-30 px-20 text-[#112931] gap-1">
             <div className=" flex justify-between items-center w-full">
                 <div className="w-full flex flex-col gap-5">
                     <p className="text-2xl">Wanna transform your outdoor space? Let’s talk.</p>
@@ -24,8 +24,10 @@ const Form = () => {
                         <div >
                             <textarea name="text" placeholder="Message" className="border border-[#112931] rounded-2xl w-full ps-2 py-6 leading-2" id=""></textarea>
                         </div>
-                        <div className='btn-all btn-s h-16 w-56  items-center mt-15'>
-                            <a href='# ' className='capitalize relative text-[22px] py-8 px-20 leading-7.5 decoration-1 underline  text-[#171717] text-center cursor-pointer'> <img src='/img/arrow-right.svg' className="absolute left-8 top-6" /> submit</a>
+                        <div className='btn-all btn-s h-16 w-50  items-center mt-12'>
+                            <a href='# ' className='capitalize relative flex justify=center text-[22px] py-3 px-30 leading-7.5 decoration-1 underline  text-[#171717] text-center cursor-pointer'> 
+                                <img src='/img/arrow-right.svg' className="absolute left-16 top-2" /> submit
+                            </a>
                         </div>
                     </form>
                 </div>

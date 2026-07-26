@@ -13,15 +13,16 @@ const Home = () => {
                 <source src="/HOMEVideo.webm" type="video/webm" />
             </video> 
         {/* </div> */}
-        <div className='relative w-full flex justify-evenly items-center z-10'>
-            <div className='w-120 h-40 ' >
-                <h2 className='text-7xl font-bold '>Luxury Pools <br/> & Landscape</h2>
+
+        <div className='relative top-90 gap-20 flex justify-center  items-center z-10'>
+            <div className=' -pr-3 ' >
+                <h1 className='text-white text-[80px] leading-[76px] font-normal '>Custom Pool<br/>Builders In<br/>Phoenix, Arizona</h1>
             </div>
-            <div className='flex flex-col justify-center items-center w-70 h-40 '>
-                <div><img src='/img/arrow.png' alt='for scroll' className='size-xl ' /></div>
+            <div className='w-88 '>
+                <img src='/img/arrow.png' alt='for scroll'  />
             </div>
-            <div className='w-100 h-34'>
-                <h2 className='text-2xl'>Experience a level of craftsmanship where the people<br/> you meet are the ones who build your</h2>
+            <div className='-ml-12  '>
+                <h2 className='text-white text-[22px] leading-[44px] capitalize font-normal'>We design and build custom pools, luxury landscapes, and<br/>complete outdoor living spaces throughout Gilbert, Queen<br/>Creek, Mesa, Scottsdale, Tempe, Paradise Valley, Phoenix, and<br/>the surrounding East & West Valley.</h2>
             </div>
         </div>
     </section>

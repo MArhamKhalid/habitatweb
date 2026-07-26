@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div className='flex justify-center items-center px-[104px] py-[40px] border-x border-[#e1e1e140]'>
           <a href="#">
-            <img src='/img/logo-main.png' className='h-[58px]' />
+            <img src='/img/logo-main.png' alt='main logo' className='h-[58px]' />
           </a>
         </div>
         <div className='flex justify-center items-center text-xl py-[40px] pr-[54px] pl-[101px]  border-l border-[#e1e1e140]'>

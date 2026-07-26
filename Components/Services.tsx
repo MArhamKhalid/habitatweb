@@ -2,17 +2,19 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <section className="w-full h-dvh grid-cols-1 justify-center items-start">
-        <img src='/service-01.png ' className='w-full h-full absolute object-cover' />
+    <section className="relative w-full h-280 bg-white ">
+        {/* <div className='w-full h-500  absolute top-0 left-0'> */}
+            <img src='/service-01.png ' className=' absolute w-full h-full bg-cover object-cover rounded-3xl' />
+        {/* </div> */}
 
-        <div className="flex grid-rows-2 justify-between items-center w-full h-full px-20 z-10  text-white">
-            <div className="text-7xl font-bold w-250 z-10">
-                <h4>Pool Design & Build</h4>
+        <div className="relative flex justify-between  px-20 pt-54 z-10  text-white">
+            <div className="w-244 uppercase pt-16">
+                <h4 className="text-[66px] leading-16">Custom Swimming Pool<br/>Construction</h4>
             </div>
-            <div className="w-150  text-xl z-10">
-                <h3>Custom pools designed around your space, your lifestyle, and your vision—built with precision and long-term durability in mind.</h3>
-                <div className='btn-all h-16 w-48  items-center mt-15'>
-                    <a href='/' className='capitalize relative text-[22px] py-8 px-5 leading-7.5 decoration-1 underline  text-white text-center cursor-pointer'>Book A service</a>
+            <div className='w-90% '>
+                <p className="  text-2xl leading-9 ">Every phase of swimming pool construction is<br/>carefully coordinated, from excavation and<br/>engineering to plumbing, electrical work, shotcrete,<br/>tile installation, coping, decking, landscaping, and<br/>premium pebble finishes. 90 days is all it takes!</p>
+                <div className='btn-all w-80  mt-12 relative'>
+                    <a href='#' className=' flex justify-center capitalize relative text-[22px] py-5 px-15 leading-7.5 decoration-1 underline  text-white text-center cursor-pointer'>Book A service</a>
                 </div>
             </div>
         </div>
