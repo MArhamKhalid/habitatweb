@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='w-full h-150 flex justify-center items-center px-20 bg-white'>
         <div className='w-full'>
             
-            <div className='w-full h-120 bg-[#112931] rounded-4xl text-white flex justify-center items-center ps-10 gap-2'>
+            <div className='w-full h-120 bg-[#112931] rounded-4xl text-white flex justify-center items-center px-10 gap-2'>
                 <div className='w-full flex flex-col'>
                     <h2 className='text-6xl'>
                     Talk To Us About <br />
