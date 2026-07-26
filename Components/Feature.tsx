@@ -1,117 +1,46 @@
-
-const Feature = () => {
+const SecondFeature = () => {
   return (
-    <section className="w-full h-dvh grid-cols-1 justify-center items-start">
-        <img src='/img/review-bg.png' className='w-full h-full absolute object-cover' />
+    <section className="w-full h-auto grid-cols-1 justify-center items-start bg-[#112931]">
 
-        <div className="flex flex-col justify-between items-center w-full h-full py-30 px-20 z-10  text-white">
-            <div className="z-10 flex justify-center items-center w-full relative">
+        <div className="flex flex-col justify-between items-center w-full  py-30 px-20 text-white gap-12">
+            <div className=" flex justify-center items-center w-full relative">
                 <span className="absolute left-0 text-[36px] text-[#86A3AC]">Features</span>
-                <h2 className="text-8xl leading-1.1 ">Real Stories.<br/> Stunning Backyards</h2>
+                <h2 className="text-8xl leading-1.1 capitalize ">Enhance Your Pool with <br/>Premium Features</h2>
             </div>
-            <div className="flex justify-center items-center w-full z-10 gap-5 mt-24" >
-                <div className="w-200 max-w-96 h-auto">
-                    <img className="size-100" src='/img/arrow-left-new.svg' />
-                </div>
-
-                <div className="w-290 h-120 bg-white rounded-3xl py-12 px-7 flex flex-col text-[#112931]">
-                    <div className="flex flex-col justify-center">
-                        <img src='/img/review-quote.png' className="absolute " />
-                        <div className="flex flex-col justify-center ml-18">
-                            <h2 className="text-xl">Jennifer Collins</h2>
-                            <div className="flex ">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                            </div>
-                        
-                        </div>
-                    </div>
-                    <div className="text-[#112931] mt-26 text-[18px]">
-                        <p >The quality of work is exceptional. They transformed our vision into a breathtaking custom pool that completely elevated our home. If you’re looking for luxury pool construction with premium service, this is the company to trust.</p>
-                    </div>
-                </div>
-
-                <div className="w-290 h-120 bg-white rounded-3xl py-12 px-7 flex flex-col text-[#112931]">
-                    <div className="flex flex-col justify-center">
-                        <img src='/img/review-quote.png' className="absolute " />
-                        <div className="flex flex-col justify-center ml-18">
-                            <h2 className="text-xl">Daniel Rodriguez</h2>
-                            <div className="flex ">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                            </div>
-                        
-                        </div>
-                    </div>
-                    <div className="text-[#112931] mt-26 text-[18px]">
-                        <p>From the initial design consultation to the final reveal, the team exceeded every expectation. Our backyard now feels like a five-star resort. The craftsmanship, attention to detail, and luxury finishes are absolutely stunning</p>
-                    </div>
-                </div>
-
-
-                <div className="w-290 h-120 bg-white rounded-3xl py-12 px-7 flex flex-col text-[#112931]">
-                    <div className="flex flex-col justify-center">
-                        <img src='/img/review-quote.png' className="absolute " />
-                        <div className="flex flex-col justify-center ml-18">
-                            <h2 className="text-xl">Sarah Thompson</h2>
-                            <div className="flex ">
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                                <svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"fill="currentColor" viewBox="0 0 24 24" >
-                                <path d="m4.83 12.49 2.04 1.83-.83 2.9-1 3.5c-.12.4.03.84.37 1.08.34.25.8.26 1.14.02l3-2L12 18.19l2.45 1.63 3 2a.99.99 0 0 0 1.14-.02c.34-.25.49-.68.37-1.08l-1-3.5-.83-2.9 2.04-1.83 2.5-2.25c.3-.27.41-.69.28-1.06-.13-.38-.47-.64-.87-.68l-3.15-.25-2.56-.2-2.47-5.46a.998.998 0 0 0-1.82 0L8.61 8.05l-2.56.2-3.15.25c-.4.03-.74.3-.87.68s-.02.8.28 1.06l2.5 2.25Zm1.39-2.25 2.52-.2.62-.05.59-.05.84-1.86 1.2-2.66 1.2 2.66.84 1.86.59.05.62.05 2.52.2.83.07-.77.69-2.5 2.25-.46.42.17.6 1.25 4.38-3.74-2.49-.55-.37-.55.37-3.74 2.49 1.25-4.38.17-.6-.46-.42L6.16 11l-.77-.69z"></path>
-                                </svg>
-                            </div>
-                        
-                        </div>
-                    </div>
-                    <div className="text-[#112931] mt-26 text-[18px] ">
-                        <p>We wanted a modern infinity pool that felt elegant and timeless, and they delivered flawlessly. The entire construction process was smooth, professional, and completed on schedule. Guests are constantly complimenting our new outdoor space.</p>
-                    </div>
-                </div>
-                <div className="w-200 max-w-96 h-auto">
-                    <img className="size-100" src='/img/arrow-right-new.svg' />
-                </div>
+            <div className="flex justify-evenly items-center w-full h-full">
+                <div className="w-230 h-140 overflow-hidden relative" >
+                    <img src='/img/features_1.png' className="absolute w-full h-full " />
                 
+                    <div className="relative z-10 flex items-end w-full h-full ml-4 pb-4">
+                        <h2 className="text-4xl">Water Features</h2>
+                    </div>
+                </div>
+                <div className="w-90 h-140 overflow-hidden relative" >
+                    <img src='/img/features_2.jpg' className="absolute w-full h-full " />
+                
+                    <div className="relative z-10 flex items-end w-full h-full ml-4 pb-4">
+                        <h2 className="text-2xl">Outdoor Fire<br/>Features</h2>
+                    </div>
+                </div>
+                <div className="w-90 h-140 overflow-hidden relative" >
+                    <img src='/img/features_3.jpg' className="absolute w-full h-full " />
+                
+                    <div className="relative z-10 flex items-end w-full h-full ml-4 pb-4">
+                        <h2 className="text-2xl">Lighting Features</h2>
+                    </div>
+                </div>
+                <div className="w-90 h-140 overflow-hidden relative" >
+                    <img src='/img/features_4.png' className="absolute w-full h-full " />
+                
+                    <div className="relative z-10 flex items-end w-full h-full ml-4 pb-4">
+                        <h2 className="text-2xl">Outdoor Kitchens &<br/>BBQ Area</h2>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div>    
     </section>
+    
   )
 }
 
-export default Feature
+export default SecondFeature

@@ -7,8 +7,8 @@ import Contact from "@/Components/Contact"
 import Gallery from "@/Components/Gallery"
 import Services from "@/Components/Services";
 import Detail from "@/Components/Detail";
+import Reviews from "@/Components/Reviews";
 import Feature from "@/Components/Feature";
-import SecondFeature from "@/Components/SecondFeature";
 import Preview from "@/Components/Preview";
 import Form from "@/Components/Form";
 import Footer from '@/Components/Footer'
@@ -46,8 +46,8 @@ export default function RootLayout({
         <Gallery/>
         <Services/>
         <Detail/>
+        <Reviews/>
         <Feature/>
-        <SecondFeature/>
         <Preview/>
         <Form/>
         <Footer/>
