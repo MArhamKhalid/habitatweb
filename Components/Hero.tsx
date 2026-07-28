@@ -3,16 +3,13 @@ import React from 'react'
 const Home = () => {
   return (
     <section className='relative w-full h-screen flex flex-col justify-center items-center text-white '>
-        
-        {/* <div className="relative h-full w-full flex items-center justify-center"> */}
             <video className=" absolute top-0px left-0px inset-0 object-cover h-full w-full  overflow-hidden  "  
                 autoPlay
                 muted
                 loop
                 playsInline>
                 <source src="/HOMEVideo.webm" type="video/webm" />
-            </video> 
-        {/* </div> */}
+            </video>
 
         <div className='relative top-78 gap-20 flex justify-center  items-center z-10'>
             <div className=' -pr-3 ' >

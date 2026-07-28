@@ -5,16 +5,13 @@ const Contact = () => {
     <>
     <section className='pt-44 pb-14 px-32 bg-[#112931]'>
         <div className='w-full h-screen flex justify-center relative'>
-            
-            {/* <div className='w-270 flex justify-center items-center relative'> */}
-                <img src= '/contactimg.png' alt="image" className=' absolute top-23 left-69 rounded-3xl inset-0 w-184 h-200 bg-no-repeat bg-cover'/>
-            {/* </div> */}
+            <img src= '/contactimg.png' alt="image" className=' absolute top-23 left-69 rounded-3xl inset-0 w-184 h-200 bg-no-repeat bg-cover'/>
             <div className='flex justify center w-full z-10 gap-0 '>
                 
                 <div className=" w-150 pt-28">
                     <h4 className="text-[36px] text-[#86A3AC] ">Who We Are</h4>
                 </div>
-                <div className=' w-full h-100 ml-4'>
+                <div className=' w-full h-100 ml-10'>
                     <h5 className=' text-8xl text-white -mr-10' >From Ordinary To <br/> Extraordinary <br/>Outdoors</h5>
                 </div>
                 <div className='w-250 h-100 mt-75 flex flex-col justify-center items-center text-white '>

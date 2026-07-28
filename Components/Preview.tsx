@@ -4,10 +4,8 @@ const Preview = () => {
   return (
     <section className="w-full justify-center bg-white">
         <div className=' pt-34 pb-190 px-24 '>
-            <div className="flex flex-col justify-between items-center w-full h-full text-[#112931] gap-1">
-                <div className=" flex justify-center items-center w-full relative">
-                    <h2 className="text-8xl leading-1.1 capitalize ">before & after</h2>
-                </div>
+            <div className="flex justify-center items-center w-full h-full text-[#112931] gap-1">
+                <h2 className="text-8xl leading-1.1 capitalize ">before & after</h2>
             </div>
             <div className='w-full h-full flex justify-center mt-60 relative'>
                 <div className=' flex justify-center items-center absolute w-210 h-120 gap-px '>

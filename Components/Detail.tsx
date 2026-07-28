@@ -7,7 +7,7 @@ const Detail = () => {
             <div className='w-full h-auto '>
                 <img src='/owner.png'/>
                 </div>
-            <div className='flex flex-col justify-center text-right w-full h-200 gap-y-12'>
+            <div className='flex flex-col justify-center text-right w-full h-200 gap-y-12 text-white'>
                 <div>
                     <h2 className='text-6xl'>At Habitat Pools &<br/>Landscape, we do things<br/>differently</h2>
                 </div>

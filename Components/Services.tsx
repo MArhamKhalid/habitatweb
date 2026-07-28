@@ -3,9 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <section className="relative w-full h-280 bg-white ">
-        {/* <div className='w-full h-500  absolute top-0 left-0'> */}
-            <img src='/service-01.png ' className=' absolute w-full h-full bg-cover object-cover rounded-3xl' />
-        {/* </div> */}
+        <img src='/service-01.png ' className=' absolute w-full h-full bg-cover object-cover rounded-3xl' />
 
         <div className="relative flex justify-between  px-20 pt-54 z-10  text-white">
             <div className="w-244 uppercase pt-16">
