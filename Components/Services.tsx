@@ -11,8 +11,8 @@ const Services = () => {
             </div>
             <div className='w-90% '>
                 <p className="  text-2xl leading-9 ">Every phase of swimming pool construction is<br/>carefully coordinated, from excavation and<br/>engineering to plumbing, electrical work, shotcrete,<br/>tile installation, coping, decking, landscaping, and<br/>premium pebble finishes. 90 days is all it takes!</p>
-                <div className='btn-all w-80  mt-12 relative'>
-                    <a href='#' className=' flex justify-center capitalize relative text-[22px] py-5 px-15 leading-7.5 decoration-1 underline  text-white text-center cursor-pointer'>Book A service</a>
+                <div className='btn-all w-full  mt-8 relative'>
+                    <a href='#' className='  capitalize relative text-[22px] py-6 px-21 leading-7.5 decoration-1 underline  text-white text-center cursor-pointer'>Book A service</a>
                 </div>
             </div>
         </div>

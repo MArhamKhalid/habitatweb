@@ -2,7 +2,7 @@ import React from 'react'
 
 const Detail = () => {
   return (
-    <section className='w-full bg-[#112931] py-30 px-10'>
+    <section className='w-full bg-[#112931] py-25 px-10'>
         <div className='flex justify-between items-center w-full gap-1'>
             <div className='w-full h-auto '>
                 <img src='/owner.png'/>

@@ -4,12 +4,12 @@ const Feature = () => {
     <section className="w-full h-dvh grid-cols-1 justify-center items-start">
         <img src='/img/review-bg.png' className='w-full h-full absolute object-cover' />
 
-        <div className="flex flex-col justify-between items-center w-full h-full py-30 px-20 z-10  text-white">
+        <div className="flex flex-col justify-between items-center w-full gap-y-37.5 pt-30 px-20 z-10  text-white">
             <div className="z-10 flex justify-center items-center w-full relative">
                 <span className="absolute left-0 text-[36px] text-[#86A3AC]">Reviews</span>
                 <h2 className="text-8xl leading-1.1 ">Real Stories.<br/> Stunning Backyards</h2>
             </div>
-            <div className="flex justify-center items-center w-full z-10 gap-6 mt-24" >
+            <div className="flex justify-center items-center w-full z-10 gap-3" >
                 <div className="w-200 max-w-96 h-auto">
                     <img className="size-100" src='/img/arrow-left-new.svg' />
                 </div>
