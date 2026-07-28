@@ -1,5 +1,4 @@
-import React from 'react'
-// import ConImage from '../contactimg.png'
+
 
 const Contact = () => {
   return (
@@ -12,13 +11,13 @@ const Contact = () => {
             {/* </div> */}
             <div className='flex justify center w-full z-10 gap-0 '>
                 
-                <div className=" w-130 pt-28">
+                <div className=" w-150 pt-28">
                     <h4 className="text-[36px] text-[#86A3AC] ">Who We Are</h4>
                 </div>
-                <div className=' w-450 h-100 pl-14'>
-                    <h5 className=' text-8xl text-white pl-5' >From Ordinary To <br/> Extraordinary <br/>Outdoors</h5>
+                <div className=' w-full h-100 ml-4'>
+                    <h5 className=' text-8xl text-white -mr-10' >From Ordinary To <br/> Extraordinary <br/>Outdoors</h5>
                 </div>
-                <div className='w-270 h-100 mt-75 flex flex-col justify-center items-center text-white -pl-15'>
+                <div className='w-250 h-100 mt-75 flex flex-col justify-center items-center text-white '>
                     <h2 className='text-2xl capitalize leading-10 font-normal'>Habitat Pools was founded in 2024 by two brothers after more than 18 years of combined experience in Arizona's pool and landscape industry. As brothers and business partners, we're passionate about creating outdoor spaces that are as functional as they are beautiful. Unlike larger companies where projects often change hands between multiple departments, we stay involved, committed and transparent.</h2>
                     <div className='w-full'>
                         <div className='btn-all w-150 mt-15'>
